@@ -22,8 +22,20 @@ public class Game {
         return this.shootCount;
     }
 
+    public void setShootCount(int x){
+        this.shootCount = x;
+    }
+
+    public void setShoot(int x){
+        this.shoot = x;
+    }
+
     public int getPoint() {
         return this.point;
+    }
+
+    public void setPoint(int point) {
+        this.point = point;
     }
 
     public boolean isWin() {

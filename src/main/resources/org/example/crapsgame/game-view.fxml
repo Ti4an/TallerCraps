@@ -42,7 +42,7 @@
                   <Font name="System Bold" size="16.0" />
                </font>
             </Label>
-            <Button mnemonicParsing="false" style="-fx-background-color: black; -fx-border-color: white; -fx-border-radius: 16; -fx-border-width: 2;" text="?" textFill="WHITE">
+            <Button mnemonicParsing="false" onAction="#onHelpButton" style="-fx-background-color: black; -fx-border-color: white; -fx-border-radius: 16; -fx-border-width: 2;" text="?" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="16.0" />
                </font>
@@ -73,13 +73,13 @@
                         <Insets left="102.0" />
                      </GridPane.margin>
                   </Label>
-                  <Label fx:id="shootLabel" alignment="CENTER" prefHeight="16.0" prefWidth="16.0" style="-fx-border-color: black;" GridPane.columnIndex="1" />
+                  <Label fx:id="shootLabel" alignment="CENTER" prefHeight="18.0" prefWidth="25.0" style="-fx-border-color: black;" GridPane.columnIndex="1" />
                   <Label text="Punto" GridPane.rowIndex="1">
                      <GridPane.margin>
                         <Insets left="102.0" />
                      </GridPane.margin>
                   </Label>
-                  <Label fx:id="pointLabel" alignment="CENTER" prefHeight="16.0" prefWidth="16.0" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Label fx:id="pointLabel" alignment="CENTER" prefHeight="18.0" prefWidth="26.0" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                </children>
             </GridPane>
          </center>
