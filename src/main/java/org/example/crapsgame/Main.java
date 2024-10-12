@@ -15,5 +15,6 @@ public class Main extends Application  {
     @Override
     public void start(Stage primaryStage) throws IOException {
         GameStage.getInstance();
+        System.out.println("hola");
     }
 }
